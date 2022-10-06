@@ -1,0 +1,100 @@
+<div [formGroup]="UserForm" class="Main center col-sm-12" (ngSubmit)="SubmitForm()">
+    <div class="Ccontainer">
+
+        <div class="Main  flexcolm">
+            <h1 class="userlable ">Create Teacher Account</h1>
+            <form class="loginbox">
+                <div class="lableSize">
+                    <label class="MainLable lablepadding">First Name:</label>
+                    <div>
+                        <input formControlName="FirstName" class="texbox textSize" type="text">
+                        <div *ngIf="UserForm.controls['FirstName'].invalid && (UserForm.controls['FirstName'].dirty || UserForm.controls['FirstName'].touched)"
+                            class="">
+                            <div *ngIf="UserForm.controls['FirstName'].errors" class="error">
+                                Name is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lableSize">
+                    <label class="MainLable lablepadding">Family Name:</label>
+                    <div>
+                        <input formControlName="Family" class="texbox textSize" type="text">
+                        <div *ngIf="UserForm.controls['Family'].invalid && (UserForm.controls['Family'].dirty || UserForm.controls['Family'].touched)"
+                            class="">
+                            <div *ngIf="UserForm.controls['Family'].errors" class="error">
+                                Family Name is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lableSize">
+                    <label class="MainLable lablepadding">Password:</label>
+                    <div>
+                        <input formControlName="Password" class="texbox textSize" type="password">
+                        <div *ngIf="UserForm.controls['Password'].invalid && (UserForm.controls['Password'].dirty || UserForm.controls['Password'].touched)"
+                            class="">
+                            <div *ngIf="UserForm.controls['Password'].errors" class="error">
+                                Password is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lableSize">
+                    <label class="MainLable lablepadding">Email:</label>
+                    <div>
+
+                        <input formControlName="Email" class="texbox textSize" type="email">
+
+                        <div class="error"
+                            *ngIf="UserForm.controls['Email'].invalid && (UserForm.controls['Email'].dirty || UserForm.controls['Email'].touched)">
+                            <div *ngIf="UserForm.controls['Email'].errors">
+                                Email is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lableSize">
+                    <label class="MainLable lablepadding">Country:</label>
+                    <div>
+                        <select id="country" class="texbox textSize" formControlName="Country">
+                            <option *ngFor="let c of countries" [ngValue]="c">{{ c }}</option>
+                        </select>
+                        <div class="error"
+                            *ngIf="UserForm.controls['Country'].invalid && (UserForm.controls['Country'].dirty || UserForm.controls['Country'].touched)">
+                            <div *ngIf="UserForm.controls['Country'].errors">
+                                Country is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lableSize">
+                    <label class="MainLable lablepadding">RememberMe:</label>
+                    <div>
+                        <input formControlName="RememberMe" type="checkbox" id="RememberMe" name="RememberMe"
+                            value="true">
+                    </div>
+                </div>
+                <div class="lableSize">
+                    <label class="MainLable lablepadding">Gender:</label>
+                    <div>
+                        <input type="radio" id="html" formControlName="Gender" value="Male">
+                          <label for="html">Male</label><br>
+                          <input type="radio" id="css" formControlName="Gender" value="Female">
+                          <label for="css">Female</label>
+                        <div *ngIf="UserForm.controls['Gender'].invalid && (UserForm.controls['Gender'].dirty || UserForm.controls['Gender'].touched)"
+                            class="">
+                            <div *ngIf="UserForm.controls['Gender'].errors" class="error">
+                                Gender is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button [disabled]="!UserForm.valid" [ngClass]="{'disabled':!UserForm.valid}" type="submit"
+                        (click)="SubmitForm()" class="btn1 center">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

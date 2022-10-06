@@ -1,0 +1,85 @@
+.hm{
+    width: 86px;
+    height: 40px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+border: solid;
+background: #ACACAC;
+border-radius: 8px;
+margin-left: 2%;
+color: #FFFFFF;
+}
+
+.icon{
+    margin-right: 10%;
+}
+.cant1{
+    display: flex;
+        justify-content: space-around;
+}
+.charis{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 40px;
+letter-spacing: -0.02em;
+
+color: #000000;
+width: 231px;
+height: 67px;
+}
+.savebtn{
+    background: #000000;
+    border-radius: 8px;width: 90px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 2%;
+    
+    color: #FFFFFF;
+    
+}
+.viewlsn{
+    width: 124.77px;
+height: 40px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+
+color: #FFFFFF;
+background: #000000;
+border-radius: 8px;
+}
+.tex1{
+    width: 546px;
+height: 1055px;
+font-family: 'Baloo Bhai';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+}
+.text2{
+    width: 599px;
+    height: 1055px;
+    font-family: 'Baloo Bhai';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+
+color: #000000;
+
+}

@@ -1,0 +1,74 @@
+<div class="container" style="padding: 25px;">
+    <div class="row align-items-start">
+        <div class="col-md-8">
+            <div class="homebtn">
+                <fa-icon [icon]="faHouse"></fa-icon>Home
+            </div>
+            <div class=" row cal-md-8">
+                <p class="chris"><b>Chris tan</b></p>
+                <div class="cal-md-12 btnbox">
+                    <button class="btnsave  ">
+                        <fa-icon [icon]="faFileArrowDown"></fa-icon>Save
+                    </button>
+                    <button class="btnnots  ">
+                        <fa-icon [icon]="faFolder"></fa-icon> View Notes
+                    </button>
+                    <button class="btnviewlesson ">
+                        <fa-icon [icon]="faFileLines"></fa-icon>View Lesson
+                    </button>
+
+                </div>
+                <div class="cal-md-12">
+                    <input class="text" type="textarea">
+                </div>
+                <div class="row">
+                    <h2 class="tls">TLS</h2>
+                </div>
+            </div>
+            <div class="cal-md-12">
+                <table class="tbl">
+                    <tr>
+                        <td>Date</td>
+                        <td>Program</td>
+                        <td>Music Day</td>
+                        <td>Music Prog</td>
+                        <td>Duration</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="row col-md-4 rightcant"><button class="addhours">
+                    <fa-icon [icon]="faCirclePlus"></fa-icon>Add Hours
+                </button></div>
+            <div class="row">
+                <div class="heading maindiv">
+                    <h1>11</h1>
+                    <p>Hours Remaining</p>
+                </div>
+                <div class="heading1 maindiv">
+                    <h1>29</h1>
+                    <p>Hours Completed</p>
+                </div>
+            </div>
+
+            <div class="row col-md-12">
+                <div class="col-md-4"><b>Lesson Log</b></div>
+                <div class="col-md-8">Add Hours Log</div>
+            </div>
+
+            <div class="block  col-md-12" style="padding: 15px" *ngFor="let item of items;">
+                <h3 class="mrstan"><b>Mrs Tan</b> </h3>
+                <p class="hr1 ">
+                    <fa-icon [icon]="faClock"></fa-icon>1 hr
+                </p>
+                <p class="date">
+                    <fa-icon [icon]="faClock"></fa-icon>24/06/2022
+                </p>
+
+            </div>
+
+
+
+        </div>

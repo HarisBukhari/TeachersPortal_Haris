@@ -1,0 +1,66 @@
+<div [formGroup]="UserForm" class="Main center col-sm-12" (ngSubmit)="SubmitForm()">
+    <div class="Ccontainer">
+
+        <div class="Main  flexcolm">
+            <h1 class="userlable ">Create Account</h1>
+            <form class="loginbox">
+                <div class="lableSize">
+                    <label class="MainLable lablepadding">Name:</label>
+                    <div>
+                        
+                        <input formControlName="Name" class="texbox textSize" type="text" >
+                        <div *ngIf="UserForm.controls['Name'].invalid && (UserForm.controls['Name'].dirty || UserForm.controls['Name'].touched)"
+                        class="">
+                        <div *ngIf="UserForm.controls['Name'].errors" class="error" >
+                            Name is required.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="lableSize">
+                <label class="MainLable lablepadding">Email:</label>
+                <div>
+                    
+                    <input formControlName="Email" class="texbox textSize" type="email">
+                    
+                    <div class="error" *ngIf="UserForm.controls['Email'].invalid && (UserForm.controls['Email'].dirty || UserForm.controls['Email'].touched)">
+                        <div  *ngIf="UserForm.controls['Email'].errors" >
+                            Email is required.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lableSize">
+                <label class="MainLable lablepadding">Role:</label>
+                <div>
+                    
+                    <input formControlName="Role" class="texbox textSize" type="text">
+                    
+                    <div class="error" *ngIf="UserForm.controls['Role'].invalid && (UserForm.controls['Role'].dirty || UserForm.controls['Role'].touched)">
+                        <div *ngIf="UserForm.controls['Role'].errors" >
+                            Role is required.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div>
+                <button [disabled]="!UserForm.valid" [ngClass]="{'disabled':!UserForm.valid}" type="submit"
+                    (click)="SubmitForm()" class="btn1 center">Submit</button>
+                </div>
+                
+            </form>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+    </div>
+</div>
+    
+    

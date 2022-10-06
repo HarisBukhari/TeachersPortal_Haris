@@ -1,0 +1,36 @@
+
+<div class="Main flexcolm ">
+    <div class="flexheading">
+    <h1 class="hello">Hello Josh!</h1>
+     <div class="namelist"><h2 >Name List</h2></div>
+     <div>
+        <button class="signoutbtn">Sign out</button></div>
+    </div>
+    <div  class="flexheading">
+     <div class="flexsubheading">
+          <div class="students"><h3 >Students</h3></div>
+          <div class="PastStudents"><h3 >Past Students</h3></div>
+          <div class="Staff"><h3 >Staff</h3></div>
+     </div>
+     <div>
+          <button class="AddStudentbtn"><fa-icon [icon]="faCirclePlus"></fa-icon>Add Student</button>
+          <button class="AddUserbtn"><fa-icon [icon]="faCirclePlus"></fa-icon>Add User</button>
+     </div>
+     <div><input class="texbox sizetext" type="search"></div>
+    </div>
+    <div  class="flexdata" >
+     <div *ngFor="let item of items;" class="maindiv">
+     <div>
+         <h3 class="chris"><b>Chris Tan</b></h3> 
+
+     </div>
+     <div>
+        <h3 class="chris"><b>Teacher</b></h3> 
+
+    </div>
+     <div><button class="Casenotesbtn">Edit</button></div>
+    </div>
+</div>
+        
+
+</div>

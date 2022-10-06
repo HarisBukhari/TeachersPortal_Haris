@@ -1,0 +1,300 @@
+.flexrow {
+    flex-direction: row;
+    justify-content: start;
+    padding: 20px
+}
+
+.maindiv {
+    background: #F5F5F7;
+    border-radius: 14px;
+    width: 50%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.flexheading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.addhours {
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 8px;
+    width: fit-content;
+    height: 40px;
+}
+
+.homebtn {
+    width: 79px;
+    background: #ACACAC;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.chris {
+
+
+    width: 101px;
+    height: 38px;
+
+
+
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+
+    color: #000000;
+}
+
+.btnsave {
+    width: 90px;
+    height: 40px;
+    color:
+        #FFFFFF;
+
+    background: #000000;
+    border-radius: 8px;
+}
+
+.btnviewlesson {
+    width: 136.77px;
+    height: 40px;
+    color:
+        #FFFFFF;
+
+    background: #000000;
+    border-radius: 8px;
+}
+
+.btnnots {
+    width: 138.77px;
+    height: 40px;
+    color:
+        #FFFFFF;
+    top: 85px;
+
+    /* Black */
+
+    background: #000000;
+    border-radius: 8px;
+}
+
+.heading {
+    width: 132px;
+    height: 67.33px;
+    left: 697px;
+    top: 70px;
+
+    /* Grey */
+
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+
+.heading1 {
+    width: 141px;
+    height: 67.33px;
+    left: 873px;
+    top: 70px;
+
+    /* Grey */
+
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+
+.text {
+    box-sizing: border-box;
+
+
+    width: 80%;
+    height: 294px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.tls {
+
+    width: 39px;
+    height: 38px;
+
+    /* H2 */
+
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+    /* Black */
+
+    color: #000000;
+
+}
+
+.tbl {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+
+
+    width: 470px;
+    height: 42px;
+
+
+    background: #FFFFFF;
+
+}
+
+.lessonlog {
+    font-size: 21px;
+    width: 122px;
+    height: 38px;
+
+
+    /* H2 */
+
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+    /* Black */
+
+    color: #000000;
+
+    opacity: 0.4;
+}
+
+.hourlog {
+    font-weight: 300;
+    font-size: 21px;
+
+    width: 159px;
+    height: 38px;
+
+
+    /* H2 */
+
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+    /* Black */
+
+    color: #000000;
+
+
+}
+
+.block {
+
+    /* Grey */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    background: #F5F5F7;
+    border-radius: 14px;
+    margin-top: 5%;
+}
+
+.mrstan {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #000000;
+
+
+}
+
+.hr1 {
+    /* CAPTION */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #000000;
+
+
+}
+
+.date {
+
+
+    /* CAPTION */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #000000;
+
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+fa-icon {
+    margin-right: 10px;
+}
+
+.rightcant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.btnbox{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;}

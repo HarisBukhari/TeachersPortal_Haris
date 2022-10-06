@@ -1,0 +1,91 @@
+.hm1{
+    width: 86px;
+    height: 40px;
+    background: #ACACAC;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    border: solid;
+    color: #FFFFFF;
+}
+.nlsn{
+    width: 124.77px;
+height: 40px;
+left: 309px;
+top: 91px;
+color: #FFFFFF;
+background: #000000;
+border-radius: 8px;
+}
+.vcn{
+    width: 144.77px;
+height: 40px;
+left: 471px;
+top: 91px;
+color: #FFFFFF;
+background: #000000;
+border-radius: 8px;
+}
+.christan{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 40px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+.mainline{
+    display: flex;
+    justify-content: space-evenly;
+}
+.save{
+    width: 61.92px;
+height: 28px;
+color: #FFFFFF;
+background: #000000;
+border-radius: 8px
+}
+
+.savefile{
+    display: flex;
+justify-content: flex-end;
+}
+.mainsearch{
+
+    
+    display: flex;
+    justify-content: flex-end
+}
+.search{
+    width: 300px;
+    height: 40px;
+}
+.table{
+    display: flex;
+    justify-content: end;
+}
+.tbl{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #000000;
+}
+td{
+    
+    padding: 5%;
+    border: 1px solid black;
+}
+th, td {
+    padding-bottom: 10%;
+    
+  }
+  tr{
+    border-bottom: 1px solid black;
+  }
+  

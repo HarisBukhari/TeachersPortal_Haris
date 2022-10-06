@@ -1,0 +1,255 @@
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 2px;
+    }
+}
+
+.flexcolm {
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px
+}
+
+.flexheading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.flexdata {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+.flexsubheading {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-left: 10px;
+    flex-direction: row;
+
+}
+
+.hello {
+    /* Grey */
+
+    background: #F5F5F7;
+    border-radius: 14px;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+
+    /* Black */
+
+    color: #000000;
+}
+
+.namelist {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+    /* Black */
+
+    color: #000000;
+
+}
+
+.signoutbtn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    background: #000000;
+
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 82px;
+
+}
+
+.students {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #000000;
+}
+
+.PastStudents {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #000000;
+
+    opacity: 0.3;
+}
+
+.Staff {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #000000;
+
+    opacity: 0.3;
+}
+
+.AddStudentbtn {
+    background: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 10px;
+
+    color: #FFFFFF;
+
+
+}
+
+.AddUserbtn {
+    margin-left: 40px;
+    background: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+
+    padding: 10px;
+}
+
+.search {
+    background: #F5F5F7;
+    border-radius: 8px;
+}
+
+.sizetext {
+    width: 300px;
+    height: 40px;
+}
+
+.maindiv {
+    background: #F5F5F7;
+    border-radius: 14px;
+    width: 30%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.chris {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    /* Black */
+
+    color: #000000;
+
+}
+
+.time {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #000000;
+}
+
+.Lessonbtn {
+    background: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 10px;
+
+    color: #FFFFFF;
+
+}
+
+.Casenotesbtn {
+    background: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+
+    padding: 10px;
+}
+
+.timeright {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #EF5DA8;
+    margin-left: -20px;
+}
+
+fa-icon {
+    margin-right: 10px;
+}

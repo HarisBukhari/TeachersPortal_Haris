@@ -1,0 +1,28 @@
+.loginbox{
+    display: flex;
+    background: white;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginlable {
+    margin-bottom: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.btn1 {
+    background: #000000;
+    border-radius: 8px;
+    color: white;
+    padding: 2%;
+    width: 200px;
+    margin: 30px;
+
+}

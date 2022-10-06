@@ -1,0 +1,59 @@
+<div class="Main flexcolm">
+    <div class="row">
+        <div class="flexheading d-flex justify-content-between">
+            <div class="col-2 col-xxl-4 d-flex justify-content-start">
+                <h2 class="hello smfont">Hello Josh!</h2>
+            </div>
+            <div class="col-xxl-4 d-flex justify-content-center">
+                <div class="namelist">
+                    <h2>Name List</h2>
+                </div>
+            </div>
+            <div class="col-xxl-4 d-flex justify-content-end">
+                <div><button class="signoutbtn">Sign out</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="row flexheading d-flex justify-content-between">
+        <div class="flexsubheading col-md-4 d-flex justify-content-between m-2">
+            <div class="students">
+                <h3>Students</h3>
+            </div>
+            <div class="PastStudents">
+                <h3>Past Students</h3>
+            </div>
+            <div class="Staff">
+                <h3>Staff</h3>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+            <button class="AddStudentbtn">
+                <fa-icon [icon]="faCirclePlus"></fa-icon>Add Student
+            </button>
+            <button class="AddUserbtn">
+                <fa-icon [icon]="faCirclePlus"></fa-icon>Add User
+            </button>
+        </div>
+        <div class="col-md-4 d-flex justify-content-end"><input class="texbox sizetext m-2" type="search"></div>
+    </div>
+
+    <div class="flexdata row" >
+        <div *ngFor="let item of items;" class="col-12 col-lg-6 col-xxl-4">
+            <div class="maindiv" style=" width: auto;">
+                <div>
+                    <h3 class="chris"><b>Chris Tan</b></h3>
+                    <p class="time">
+                        <fa-icon [icon]="faClock"></fa-icon>3h 15min
+                    </p>
+                </div>
+                <div><button class="Lessonbtn">Lesson</button></div>
+                <div><button class="Casenotesbtn">Case Notes</button></div>
+                <div>
+                    <p class="timeright">
+                        <fa-icon [icon]="faClock"></fa-icon>3h 15min
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

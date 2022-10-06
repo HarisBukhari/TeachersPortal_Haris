@@ -1,0 +1,78 @@
+.loginbox {
+    display: flex;
+    background: white;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userlable {
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 57px;
+
+    /* Black */
+
+    color: #000000;
+}
+
+.lableSize {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+
+
+    /* Black */
+
+    color: #000000;
+
+}
+
+.btn1 {
+    background: #000000;
+    border-radius: 8px;
+    color: white;
+    padding: 2%;
+    width: 200px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.lablepadding {
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.textSize {
+    width: 400px !important;
+    margin-bottom: 20px !important;
+}
+
+.flexcolm {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.error {
+    color: red;
+    font-size: small;
+
+}
+
+.Ccontainer {
+    padding: 0 1em;
+    max-width: 60rem;
+    margin: 0 auto;
+}
